@@ -1,7 +1,6 @@
-import java.util.Scanner;
-
 public class Question2
 {
+  import java.util.Scanner;
   public static void main(String[] args)
   {
     System.out.print("Please enter you height in meters: ");
