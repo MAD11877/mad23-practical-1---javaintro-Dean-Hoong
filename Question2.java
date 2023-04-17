@@ -8,8 +8,8 @@ public class Question2
     Scanner in1 = new Scanner(System.in);
     double height = in1.nextDouble();
     //System.out.print("Please enter you weight in kg: ");
-    Scanner in2 = new Scanner(System.in);
-    double weight = in2.nextDouble();
+    //Scanner in1 = new Scanner(System.in);
+    double weight = in1.nextDouble();
     double bmi = weight / (height * height);
     System.out.println(bmi);
   }
