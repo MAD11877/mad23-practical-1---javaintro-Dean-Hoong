@@ -5,7 +5,7 @@ public class Question5
   public static void main(String[] args)
   {
     Scanner scanner = new Scanner(System.in);
-    System.out.print("Enter the number of integers: ");
+    //System.out.print("Enter the number of integers: ");
     int numIntegers = scanner.nextInt();
     int[] freqArray = new int[1001];
     for (int i = 0; i < numIntegers; i++) 
