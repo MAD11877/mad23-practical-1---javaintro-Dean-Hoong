@@ -10,7 +10,7 @@ public class Question5
     int[] freqArray = new int[1001];
     for (int i = 0; i < numIntegers; i++) 
         {
-        System.out.print("Enter an integer: ");
+        //System.out.print("Enter an integer: ");
         int num = scanner.nextInt();
         freqArray[num]++;
         }
